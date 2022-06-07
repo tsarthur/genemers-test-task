@@ -3,8 +3,6 @@ import { DocumentBuilder, SwaggerModule } from "@nestjs/swagger";
 import { ValidationPipe } from "./common/validations/pipe.validation";
 import { AppModule } from "./app.module";
 
-const cors = require("cors");
-
 async function start() {
   const PORT = process.env.PORT || 5000;
   const app = await NestFactory.create(AppModule);

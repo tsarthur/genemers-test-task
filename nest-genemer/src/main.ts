@@ -11,7 +11,7 @@ async function start() {
     .setTitle("Приложение Nest-Genemers")
     .setDescription("Документация REST API")
     .setVersion("1.0.0")
-    .addTag("ARTUR_PETRIN")
+    .addTag("ARTHUR_PETRIN")
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup("/api/docs", app, document);

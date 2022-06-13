@@ -14,7 +14,7 @@
 - Node.js.
 - Nest.js.
 - Postgresql.
-- Express.    
+- Swagger.    
             
 -- **Использовать patterns:** 
 - Controller.
